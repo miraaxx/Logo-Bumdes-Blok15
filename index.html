@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tugas Link Gambar</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #gambar {
+      display: none;
+      margin-top: 20px;
+      max-width: 90%;
+      height: auto;
+    }
+
+    a {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Link Gambar Bumdes</h2>
+  <p>
+    <a href="#" onclick="document.getElementById('gambar').style.display='block'; return false;">
+      Klik di sini untuk melihat gambar
+    </a>
+  </p>
+
+  <img id="gambar" src="logo.jpeg" alt="Logo Bumdes Amanah">
+
+</body>
+</html>
